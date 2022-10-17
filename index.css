@@ -18,13 +18,16 @@
     position: fixed;
     padding: 30px 0;
     width: 100%;
-    /* background-color: crimson; */
+    z-index: 999;
+    /* background-color: transparent; */
     font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
 }
 
-.navbar .sticky{
-    padding: 30px 0;
+.sticky{
+    padding: 15px 0;
     background: crimson;
+    
 }
 
 .navbar .max-width{
@@ -41,6 +44,10 @@
 
 .navbar .logo a span{
     color: crimson;
+}
+
+.sticky .logo a span{
+    color: #ffffff;
 }
 
 .navbar .menu li{
@@ -63,7 +70,7 @@
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bgpic.jpg") ;
+    background: url("images/bgpic.jpg") no-repeat left;
     height: 100vh;
     color: #ffffff;
     min-height: 500px;
