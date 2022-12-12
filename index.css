@@ -257,7 +257,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* projects section styling */
 .services, .teams{
     color:#fff;
     background: #111;
@@ -342,7 +342,10 @@ section .title::after{
     /* color: rgb(0, 81, 255); */
 }
 
-
+/* github section styling */
+.github .title::after{
+    content: "my github";
+}
 
 
 
