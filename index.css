@@ -347,6 +347,10 @@ section .title::after{
     content: "my github";
 }
 
+.github .calendar{
+    width: 90%;
+}
+
 
 
 
@@ -376,6 +380,11 @@ section .title::after{
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
+
+.contact .contact-content .row .info .head a{
+    color: #111;
+}
+
 .contact .contact-content .row i{
     font-size: 25px;
     color: crimson;
