@@ -38,9 +38,10 @@ section{
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
+
+/* .skills .skills-content, */
 .about .about-content,
 .services .serv-content,
-.skills .skills-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -256,6 +257,34 @@ section .title::after{
     color: crimson;
     background: none;
 }
+
+/* skills section styling */
+
+.skills .title::after{
+    content: "what i know";
+}
+
+.skills-content h2{
+    margin-bottom: 30px;
+}
+
+.skills-content .card{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    margin: auto;
+}
+
+.skills-content .card .box{
+    /* border: 1px solid; */
+    padding: 10px;
+    margin: auto;
+}
+
+.skills-content .card .box h3{
+    text-align: center;
+}
+
 
 /* projects section styling */
 .services, .teams{
@@ -537,6 +566,12 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
+
+    .skills-content .card{
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+    }
+
     .services .serv-content .card{
         /* width: calc(50% - 10px); */
         margin-bottom: 20px;
@@ -553,7 +588,7 @@ footer span a:hover{
         height: 400px;
         
     }
-    .skills .skills-content .column,
+    
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
@@ -585,9 +620,15 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text{
+
+    /* .skills .skills-content .left .text, */
+    .about .about-content .right .text{
         font-size: 19px;
+    }
+
+    .skills-content .card{
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
     }
     .contact .right form .fields{
         flex-direction: column;
