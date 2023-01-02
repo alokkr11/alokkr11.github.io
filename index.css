@@ -269,10 +269,11 @@ section .title::after{
 }
 
 .skills-content .card{
+    padding: 20px;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: 40px;
-    margin: auto;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    /* margin: auto; */
 }
 
 .skills-content .card .box{
@@ -513,6 +514,10 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .skills-content .card{
+        grid-template-columns: repeat(4,1fr);
+        /* gap: 20px; */
+    }
 }
 
 @media (max-width: 991px) {
@@ -576,8 +581,8 @@ footer span a:hover{
     }
 
     .skills-content .card{
-        grid-template-columns: repeat(4,1fr);
-        gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+        /* gap: 20px; */
     }
 
     .services .serv-content .card{
@@ -618,6 +623,10 @@ footer span a:hover{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .skills-content .card{
+        grid-template-columns: repeat(2,1fr);
+        /* gap: 20px; */
     }
 }
 
