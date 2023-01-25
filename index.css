@@ -645,6 +645,7 @@ footer span a:hover{
     }
 
     .skills-content .card{
+        padding: 0;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
     }
