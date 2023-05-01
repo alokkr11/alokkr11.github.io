@@ -49,7 +49,7 @@
             <div class="homes-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2" id="user-detail-name">Alok Kumar</div>
-                <div class="text-3" id="user-detail-intro">And I'm a <span class="typing"></span></div>
+                <div class="text-3" >And I'm a <span class="typing"></span></div>
                 <a href="https://drive.google.com/u/0/uc?id=1doAT0ISRLyAoP-RMX3H5ajyQcVlyfqBO&export=download"
                     target="_blank" id="resume-button-2"
                     onclick="window.open('https://drive.google.com/file/d/1doAT0ISRLyAoP-RMX3H5ajyQcVlyfqBO/view?usp=share_link')">Resume
@@ -69,7 +69,7 @@
                 <div class="column right">
                     <div class="text">I'm Alok Kumar and I'm a Java Back-End Developer<span class="typing-2"></span>
                     </div>
-                    <p>A passionate JAVA Back-End Developer. Dedicated to developing robust applications that interact
+                    <p id="user-detail-intro">A passionate JAVA Back-End Developer. Dedicated to developing robust applications that interact
                         with the Backend part of web applications, Just completed an Intensive Full Stack Web
                         Development Bootcamp from Masai School. With 1200+ hours of coding and 100+ hours soft skills
                         training. Looking forward to joining a progressive and challenging organization that will push
@@ -81,7 +81,7 @@
     </section>
 
     <!-- techstack and tools start -->
-    <section class="skills" id="skills">
+    <section class="skills skills-card" id="skills">
         <div class="max-width">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
@@ -344,14 +344,14 @@
     <section class="github">
         <div class="max-width">
             <h2 class="title">GitHub Statistics</h2>
-            <div class="calendar react-activity-calendar">
+            <div class="calendar react-activity-calendar" >
                 <!-- Loading stuff -->
                 Loading the data just for you.
             </div>
             <p align="center" style="margin-right:0px; margin-top: 20px; align-items: center; padding-right:0px">
                 <img width="42%"
-                    src="https://github-readme-stats.vercel.app/api?username=alokkr11&show_icons=true&theme=default" />
-                <img width="42%" src="https://github-readme-streak-stats.herokuapp.com/?user=alokkr11&theme=default" />
+                    src="https://github-readme-stats.vercel.app/api?username=alokkr11&show_icons=true&theme=default" id="github-stats-card" />
+                <img width="42%" src="https://github-readme-streak-stats.herokuapp.com/?user=alokkr11&theme=default" id="github-streak-stats"/>
             </p>
         </div>
     </section>
