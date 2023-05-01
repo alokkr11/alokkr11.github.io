@@ -26,15 +26,15 @@
         <div class="max-width">
             <div class="logo"><a href="#">A<span>lok.</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#services" class="menu-btn">Projects</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#home" class="menu-btn nav-link home">Home</a></li>
+                <li><a href="#about" class="menu-btn nav-link about">About</a></li>
+                <li><a href="#skills" class="menu-btn nav-link skills">Skills</a></li>
+                <li><a href="#services" class="menu-btn nav-link projects">Projects</a></li>
+                <li><a href="#contact" class="menu-btn nav-link contact">Contact</a></li>
                 <li><a href="https://drive.google.com/u/0/uc?id=1doAT0ISRLyAoP-RMX3H5ajyQcVlyfqBO&export=download"
                         target="_blank"
                         onclick="window.open('https://drive.google.com/file/d/1doAT0ISRLyAoP-RMX3H5ajyQcVlyfqBO/view?usp=share_link')"
-                        class="menu-btn">Resume <i class="fa fa-download"></i></a>
+                        class="menu-btn nav-link resume" id="resume-button-1">Resume <i class="fa fa-download"></i></a>
                 </li>
             </ul>
             <div class="menu-btn">
@@ -44,14 +44,14 @@
     </nav>
 
     <!-- home section start -->
-    <section class="home" id="home">
+    <section class="homes" id="home">
         <div class="max-width">
-            <div class="home-content">
+            <div class="homes-content">
                 <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Alok Kumar</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="text-2" id="user-detail-name">Alok Kumar</div>
+                <div class="text-3" id="user-detail-intro">And I'm a <span class="typing"></span></div>
                 <a href="https://drive.google.com/u/0/uc?id=1doAT0ISRLyAoP-RMX3H5ajyQcVlyfqBO&export=download"
-                    target="_blank"
+                    target="_blank" id="resume-button-2"
                     onclick="window.open('https://drive.google.com/file/d/1doAT0ISRLyAoP-RMX3H5ajyQcVlyfqBO/view?usp=share_link')">Resume
                     <i class="fa fa-download"></i></a>
             </div>
@@ -64,7 +64,7 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/alokPic_round.png" alt="my_image">
+                    <img src="images/alokPic_round.png" class="home-img" alt="my_image">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Alok Kumar and I'm a Java Back-End Developer<span class="typing-2"></span>
@@ -88,62 +88,62 @@
                 <h2>Tech Stack & Tools</h2>
                 <div class="card">
                     <div class="box">
-                        <img src="images/tech-stack/html.png" alt="HTML">
-                        <h3>HTML</h3>
+                        <img src="images/tech-stack/html.png" class="skills-card-img" alt="HTML">
+                        <h3 class="skills-card-name">HTML</h3>
                     </div>
                     <div class="box">
-                        <img src="images/tech-stack/css.png" alt="CSS">
-                        <h3>CSS</h3>
+                        <img src="images/tech-stack/css.png" class="skills-card-img" alt="CSS">
+                        <h3 class="skills-card-name">CSS</h3>
                     </div>
                     <div class="box">
-                        <img src="images/tech-stack/javascript.png" alt="JavaScript">
-                        <h3>JavaScript</h3>
+                        <img src="images/tech-stack/javascript.png" class="skills-card-img" alt="JavaScript">
+                        <h3 class="skills-card-name">JavaScript</h3>
                     </div>
                     <div class="box">
-                        <img src="images/tech-stack/java.png" alt="Java">
-                        <h3>Java</h3>
+                        <img src="images/tech-stack/java.png" class="skills-card-img" alt="Java">
+                        <h3 class="skills-card-name">Java</h3>
                     </div>
                     <div class="box">
-                        <img src="images/tech-stack/mysql.png" alt="mysql">
-                        <h3>MySQL</h3>
+                        <img src="images/tech-stack/mysql.png" class="skills-card-img" alt="mysql">
+                        <h3 class="skills-card-name">MySQL</h3>
                     </div>
                     <div class="box">
-                        <img src="images/tech-stack/maven.png" alt="Maven">
-                        <h3>Maven</h3>
+                        <img src="images/tech-stack/maven.png" class="skills-card-img" alt="Maven">
+                        <h3 class="skills-card-name">Maven</h3>
                     </div>
                     <div class="box">
-                        <img src="images/tech-stack/hibernate.png" alt="Hibernate">
-                        <h3>Hibernate</h3>
+                        <img src="images/tech-stack/hibernate.png" class="skills-card-img" alt="Hibernate">
+                        <h3 class="skills-card-name">Hibernate</h3>
                     </div>
                     <div class="box">
-                        <img src="images/tech-stack/spring.png" alt="spring">
-                        <h3>Spring</h3>
+                        <img src="images/tech-stack/spring.png" class="skills-card-img" alt="spring">
+                        <h3 class="skills-card-name">Spring</h3>
                     </div>
                     <div class="box">
-                        <img src="images/tech-stack/sboot.png" alt="SpringBoot">
-                        <h3>Spring Boot</h3>
-                    </div>
-
-                    <div class="box">
-                        <img src="images/tech-stack/git.png" alt="git">
-                        <h3>Git</h3>
-                    </div>
-                    <div class="box">
-                        <img src="images/tech-stack/github-logo.png" alt="github">
-                        <h3>GitHub</h3>
-                    </div>
-                    <div class="box">
-                        <img src="images/tech-stack/vscode.png" alt="vscode">
-                        <h3>VS Code</h3>
-                    </div>
-                    <div class="box">
-                        <img src="images/tech-stack/intellij.png" alt="intelliJ">
-                        <h3>intelliJ</h3>
+                        <img src="images/tech-stack/sboot.png" class="skills-card-img" alt="SpringBoot">
+                        <h3 class="skills-card-name">Spring Boot</h3>
                     </div>
 
                     <div class="box">
-                        <img src="images/tech-stack/sts.png" alt="sts">
-                        <h3>STS</h3>
+                        <img src="images/tech-stack/git.png" class="skills-card-img" alt="git">
+                        <h3 class="skills-card-name">Git</h3>
+                    </div>
+                    <div class="box">
+                        <img src="images/tech-stack/github-logo.png" class="skills-card-img" alt="github">
+                        <h3 class="skills-card-name">GitHub</h3>
+                    </div>
+                    <div class="box">
+                        <img src="images/tech-stack/vscode.png" class="skills-card-img" alt="vscode">
+                        <h3 class="skills-card-name">VS Code</h3>
+                    </div>
+                    <div class="box">
+                        <img src="images/tech-stack/intellij.png" class="skills-card-img" alt="intelliJ">
+                        <h3 class="skills-card-name">intelliJ</h3>
+                    </div>
+
+                    <div class="box">
+                        <img src="images/tech-stack/sts.png" class="skills-card-img" alt="sts">
+                        <h3 class="skills-card-name">STS</h3>
                     </div>
                 </div>
 
@@ -178,18 +178,18 @@
         <div class="max-width">
             <h2 class="title">My Projects</h2>
             <div class="serv-content">
-                <div class="card">
+                <div class="card project-card">
                     <div class="box">
-                        <h3 class="text">Tata 1mg</h3>
+                        <h3 class="text project-title">Tata 1mg</h3>
                         <div>
                             <div><img src="/images/1mg.png" alt="1mg"></div>
 
                             <!-- <i class="fas fa-paint-brush"></i> -->
                             <div>
-                                <p>Tata 1mg is a healthcare platform. It
+                                <p><span class="project-description">Tata 1mg is a healthcare platform. It
                                     provides services, including e-pharmacy,
                                     diagnostics, e-consultation and health
-                                    content.<br><br>
+                                    content.</span><br><br>
                                     Features:
                                 <ul>
                                     <li>HomePage | Signup and Login</li>
@@ -197,7 +197,7 @@
                                     <li>Payment Page</li>
                                 </ul><br>
 
-                                Tech Stack: HTML | CSS | JavaScript<br><br>
+                                <span class="project-tech-stack">Tech Stack: HTML | CSS | JavaScript </span><br><br>
                                 <!-- Areas of Responsibility:
                                 <ul>
                                     <li>Built the Product Page, Ayurveda Page</li>
@@ -208,25 +208,25 @@
                                 team of 6 and was executed in just 5 days.
                                 </p>
                                 <!-- <button></button><button>Live</button> -->
-                                <a href="https://github.com/mohitbirla20/team_1mg" target="_blank" class="git">Code</a>
+                                <a href="https://github.com/mohitbirla20/team_1mg" target="_blank" class="git project-github-link">Code</a>
                                 <a href="https://fabulous-sorbet-67ec69.netlify.app/" target="_blank"
-                                    class="git">Live</a>
+                                    class="git project-deployed-link">Live</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card project-card">
                     <div class="box">
-                        <h3 class="text">Naukri.com</h3>
+                        <h3 class="text project-title">Naukri.com</h3>
                         <div>
                             <div><img src="/images/naukri.png" alt="naukri"></div>
 
                             <!-- <i class="fas fa-paint-brush"></i> -->
                             <div>
-                                <p>Naukri.com is a recruitment platform that
+                                <p><span class="project-description">Naukri.com is a recruitment platform that
                                     provides hiring-related services to
                                     corporates/ recruiters, placement agencies
-                                    and job seekers in India.<br><br>
+                                    and job seekers in India.</span> <br><br>
                                     Features:
                                 <ul>
                                     <li>HomePage | Signup and Login</li>
@@ -234,7 +234,7 @@
                                     <li>Cart Page | Payment Feature</li>
                                 </ul><br>
 
-                                Tech Stack: HTML | CSS | JavaScript<br><br>
+                                <span class="project-tech-stack">Stack: HTML | CSS | JavaScript</span> <br><br>
                                 <!-- Areas of Responsibility:
                                 <ul>
                                     <li>Lead the team during Project</li>
@@ -244,25 +244,25 @@
                                 This project was collaboratively built by a
                                 team of 4 and was executed in just 5 days.
                                 </p>
-                                <a href="https://github.com/alokkr11/snugly-lip-3676" class="git"
+                                <a href="https://github.com/alokkr11/snugly-lip-3676" class="git project-github-link"
                                     target="_blank">Code</a>
-                                <a href="https://naukricom-clone.netlify.app/" class="git" target="_blank">Live</a>
+                                <a href="https://naukricom-clone.netlify.app/" class="git project-deployed-link" target="_blank">Live</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card project-card">
                     <div class="box">
-                        <h3 class="text">Tmetric </h3>
+                        <h3 class="text project-title">Tmetric </h3>
                         <div>
                             <div><img src="/images/tmetric.png" alt="tmetric"></div>
 
                             <!-- <i class="fas fa-paint-brush"></i> -->
                             <div>
-                                <p>TMetrics is a simple-time tracking application where we
+                                <p><span class="project-description">TMetrics is a simple-time tracking application where we
                                     can track our time, improve our productivity and also
-                                    track our team's progress.<br><br>
+                                    track our team's progress.</span><br><br>
                                     Features:
                                 <ul>
                                     <li>HomePage | Signup and Login</li>
@@ -270,7 +270,7 @@
                                     <li>Pricing Page | Support Page | Blog Page</li>
                                 </ul><br>
 
-                                Tech Stack: HTML | CSS | JavaScript<br><br>
+                                <span class="project-tech-stack">Tech Stack: HTML | CSS | JavaScript</span> <br><br>
                                 <!-- Areas of Responsibility:
                                 <ul>
                                     <li>Built the Navbar and Footer</li>
@@ -280,26 +280,26 @@
                                 This project was collaboratively built by a
                                 team of 5 and was executed in just 5 days.
                                 </p>
-                                <a href="https://github.com/Shibshankar01/wooden-tongue-937" class="git"
+                                <a href="https://github.com/Shibshankar01/wooden-tongue-937" class="git project-github-link"
                                     target="_blank">Code</a>
-                                <a href="https://amazing-daffodil-72806d.netlify.app/index.html" class="git"
+                                <a href="https://amazing-daffodil-72806d.netlify.app/index.html" class="git project-deployed-link"
                                     target="_blank">Live</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card project-card">
                     <div class="box">
-                        <h3 class="text">Online Trip Management System</h3>
+                        <h3 class="text project-title">Online Trip Management System</h3>
                         <div>
                             <div><img src="/images/admin-customer-controller.png" alt="naukri"></div>
 
                             <!-- <i class="fas fa-paint-brush"></i> -->
                             <div>
-                                <p>Online Trip Management System is a Resful API webservice where an admin can manage
+                                <p><span class="project-description">Online Trip Management System is a Resful API webservice where an admin can manage
                                     the tours, trips, packages and hotels and a Customer can
-                                    make a booking, payment and also give feedbacks.<br><br>
+                                    make a booking, payment and also give feedbacks.</span><br><br>
                                     Features:
                                 <ul>
                                     <li> Login and Logout as a Admin and as a Customer.</li>
@@ -315,8 +315,8 @@
 
                                 </ul><br>
 
-                                Tech Stack: <b> JAVA | Spring | Spring Data JPA |SpringBoot | Hibernate |
-                                    MySQL</b><br><br>
+                                <span class="project-tech-stack">Tech Stack: <b> JAVA | Spring | Spring Data JPA |SpringBoot | Hibernate |
+                                    MySQL</b></span><br><br>
                                 <!-- Areas of Responsibility:
                                 <ul>
                                     <li>Lead the team during Project</li>
@@ -326,10 +326,10 @@
                                 This project was collaboratively built by a
                                 team of 4 and was executed in just 5 days.
                                 </p>
-                                <a href="https://github.com/Shibshankar01/TravelZilla" class="git"
+                                <a href="https://github.com/Shibshankar01/TravelZilla" class="git project-github-link"
                                     target="_blank">Code</a>
                                 <a href="https://drive.google.com/file/d/1w6_nmxwHunOYnLnAOY2rsBWipp1bWf72/view"
-                                    class="git" target="_blank">Live</a>
+                                    class="git project-deployed-link" target="_blank">Live</a>
                             </div>
                         </div>
                     </div>
@@ -344,7 +344,7 @@
     <section class="github">
         <div class="max-width">
             <h2 class="title">GitHub Statistics</h2>
-            <div class="calendar">
+            <div class="calendar react-activity-calendar">
                 <!-- Loading stuff -->
                 Loading the data just for you.
             </div>
@@ -368,28 +368,28 @@
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
-                                <div class="head"><a href="mailto:alokk0018@gmail.com">alokk0018@gmail.com</a></div>
+                                <div class="head" id="contact-email"><a href="mailto:alokk0018@gmail.com">alokk0018@gmail.com</a></div>
                                 <!-- <div class="sub-title"></div> -->
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa fa-phone"></i>
                             <div class="info">
-                                <div class="head"><a href="tel:+917529811021">+917529811021</a></div>
+                                <div class="head" id="contact-phone"><a href="tel:+917529811021">+917529811021</a></div>
                                 <!-- <div class="sub-title"></div> -->
                             </div>
                         </div>
                         <div class="row">
                             <i class="fab fa-github"></i>
                             <div class="info">
-                                <div class="head"><a target="_blank" href="https://github.com/alokkr11">GitHub</a></div>
+                                <div class="head" id="contact-github"><a target="_blank" href="https://github.com/alokkr11">GitHub</a></div>
                                 <!-- <div class="sub-title">abc@gmail.com</div> -->
                             </div>
                         </div>
                         <div class="row">
                             <i class="fab fa-linkedin"></i>
                             <div class="info">
-                                <div class="head"><a target="_blank"
+                                <div class="head" id="contact-linkedin"><a target="_blank"
                                         href="https://www.linkedin.com/in/alok-kumar00/">Linkedin</a></div>
                                 <!-- <div class="sub-title">abc@gmail.com</div> -->
                             </div>
