@@ -50,4 +50,20 @@ $(document).ready(function () {
 
 
 });
+
 GitHubCalendar(".calendar", "alokkr11", { responsive: true });
+
+let resume1 = document
+    .getElementById("resume-button-1")
+    .addEventListener("click", opendrive);
+
+let resume2 = document
+    .getElementById("resume-button-2")
+    .addEventListener("click", opendrive);
+
+function opendrive() {
+    window.open(
+        (href =
+            "https://drive.google.com/file/d/1doAT0ISRLyAoP-RMX3H5ajyQcVlyfqBO/view")
+    );
+}
