@@ -54,11 +54,11 @@ $(document).ready(function () {
 GitHubCalendar(".calendar", "alokkr11", { responsive: true });
 
 let resume1 = document
-    .getElementById("resume-button-1")
+    .getElementById("resume-link-1")
     .addEventListener("click", opendrive);
 
 let resume2 = document
-    .getElementById("resume-button-2")
+    .getElementById("resume-link-2")
     .addEventListener("click", opendrive);
 
 function opendrive() {

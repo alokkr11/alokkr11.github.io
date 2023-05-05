@@ -149,6 +149,11 @@ section .title::after {
     color: #fff;
 }
 
+#resume-button-1, #resume-button-2{
+    border: 0px;
+    background-color: transparent;
+}
+
 /* menu btn styling */
 .menu-btn {
     color: #fff;
